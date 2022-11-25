@@ -1,1 +1,1 @@
-# MIDI_on_Pico
+# MIDI on RaspberryPI Pico
