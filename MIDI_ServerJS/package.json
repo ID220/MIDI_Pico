@@ -1,0 +1,19 @@
+{
+  "name": "midi_serverjs",
+  "version": "1.0.0",
+  "description": "A super simple MIDI server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MIDI"
+  ],
+  "author": "MAKinteract",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "midi": "^2.0.0",
+    "serialport": "^10.5.0"
+  }
+}

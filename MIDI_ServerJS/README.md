@@ -1,0 +1,10 @@
+```js
+// Play notes from 0 to 100,e ach for 100ms
+let i = 0;
+const x = setInterval(() => {
+  if (i == 100) {
+    clearInterval(x);
+  }
+  noteOn(3, i++, 127, 100);
+}, 100);
+```
