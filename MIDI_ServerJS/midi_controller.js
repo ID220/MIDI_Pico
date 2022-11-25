@@ -43,17 +43,4 @@ function noteOff(channel, note) {
   output.sendMessage([144 + (channel - 1), note, 0]);
 }
 
-//
-
-// // Send a MIDI message.
-
-// let i = 60;
-// setInterval(() => {
-//
-// }, 100);
-
-// // Close the port when done.
-// setTimeout(() => {
-//   output.closePort();
-// }, 10000);
 module.exports = { initMidi, noteOn, noteOff };
